@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\dlgyd>cd..
+
+C:\Users>cd..
+
+C:\>cd curl
+
+C:\curl>curl -X POST -Uri "apikey:2OpGZPok24p0UYBhI2BVUvLITWyJr28Oa_KSdqkdhI73" --header "Content-type:audio/wav" --data-binary @ko-KR_BroadbandModel_sample1.wav "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?model=ko-KR_BroadbandModel"
+Enter proxy password for user 'ri':
+curl: (3) URL using bad/illegal format or missing URL
+curl: (60) SSL certificate problem: self signed certificate in certificate chain
+More details here: https://curl.haxx.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+
+C:\curl>
