@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\dlgyd>cd ..
+
+C:\Users>cd ..
+
+C:\>cd sample
+
+C:\sample>cd ibm-developer
+
+C:\sample\IBM-Developer>cd node.js
+
+C:\sample\IBM-Developer\Node.js>cd course
+
+C:\sample\IBM-Developer\Node.js\Course>cd unit-14
+
+C:\sample\IBM-Developer\Node.js\Course\Unit-14>npm install cloudant
+npm WARN deprecated cloudant@1.10.0-NOTICE: This package is now scoped. The new name is @cloudant/cloudant
+
+> sqlite3@4.0.2 install C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using request for node-pre-gyp https download
+node-pre-gyp WARN Tried to download(403): https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v4.0.2/node-v83-win32-x64.tar.gz
+node-pre-gyp WARN Pre-built binaries not found for sqlite3@4.0.2 and node@14.15.0 (node-v83 ABI, unknown) (falling back to source compile with node-gyp)
+node-pre-gyp WARN Pre-built binaries not installable for sqlite3@4.0.2 and node@14.15.0 (node-v83 ABI, unknown) (falling back to source compile with node-gyp)
+node-pre-gyp WARN Hit error Connection closed while downloading tarball file
+gyp ERR! find VS
+gyp ERR! find VS msvs_version not set from command line or npm config
+gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer
+gyp ERR! find VS looking for Visual Studio 2015
+gyp ERR! find VS - not found
+gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+gyp ERR! find VS
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS You need to install the latest version of Visual Studio
+gyp ERR! find VS including the "Desktop development with C++" workload.
+gyp ERR! find VS For more information consult the documentation at:
+gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS
+gyp ERR! configure error
+gyp ERR! stack Error: Could not find any Visual Studio installation to use
+gyp ERR! stack     at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:121:47)
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:16
+gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:351:14)
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:70:14
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:372:16
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:54:7
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:33:16
+gyp ERR! stack     at ChildProcess.exithandler (child_process.js:315:5)
+gyp ERR! stack     at ChildProcess.emit (events.js:315:20)
+gyp ERR! stack     at maybeClose (internal/child_process.js:1048:16)
+gyp ERR! System Windows_NT 10.0.19041
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "configure" "--fallback-to-build" "--module=C:\\sample\\IBM-Developer\\Node.js\\Course\\Unit-14\\node_modules\\sqlite3\\lib\\binding\\node-v83-win32-x64\\node_sqlite3.node" "--module_name=node_sqlite3" "--module_path=C:\\sample\\IBM-Developer\\Node.js\\Course\\Unit-14\\node_modules\\sqlite3\\lib\\binding\\node-v83-win32-x64" "--napi_version=7" "--node_abi_napi=napi"
+gyp ERR! cwd C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3
+gyp ERR! node -v v14.15.0
+gyp ERR! node-gyp -v v5.1.0
+gyp gypERR! not ok
+ ERR! find VS
+gyp ERR! find VS msvs_version not set from command line or npm config
+gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer
+gypnode-pre-gyp ERR! find VS looking for Visual Studio 2015
+gyp  ERR!ERR!  find VS - not found
+build errorgyp
+ node-pre-gypERR!  ERR!find VS  not looking for VS2013 as it is only supported up to Node.js 8
+stackgyp Error: Failed to execute 'C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js configure --fallback-to-build --module=C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3\lib\binding\node-v83-win32-x64\node_sqlite3.node --module_name=node_sqlite3 --module_path=C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3\lib\binding\node-v83-win32-x64 --napi_version=7 --node_abi_napi=napi' (1)
+ node-pre-gypERR!  ERR!find VS
+stackgyp     at ChildProcess.<anonymous> (C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\node-pre-gyp\lib\util\compile.js:83:29)
+node-pre-gyp  ERR!ERR!  find VSstack **************************************************************
+gyp     at ChildProcess.emit (events.js:315:20)
+ node-pre-gypERR!  ERR!find VS  You need to install the latest version of Visual Studio
+gypstack      at maybeClose (internal/child_process.js:1048:16)
+ERR!node-pre-gyp  find VSERR! including the "Desktop development with C++" workload.
+gyp  stackERR!     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+ find VS For more information consult the documentation at:
+node-pre-gypgyp  ERR!ERR!  Systemfind VS Windows_NT 10.0.19041
+ https://github.com/nodejs/node-gyp#on-windows
+node-pre-gypgyp  ERR!ERR!  commandfind VS "C:\\Program Files\\nodejs\\node.exe" "C:\\sample\\IBM-Developer\\Node.js\\Course\\Unit-14\\node_modules\\node-pre-gyp\\bin\\node-pre-gyp" "install" "--fallback-to-build"
+ **************************************************************
+node-pre-gypgyp ERR!  ERR!cwd  C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3
+find VSnode-pre-gyp
+ gypERR!  node -vERR! v14.15.0
+ node-pre-gypconfigure error
+ERR!gyp  node-pre-gyp -vERR! v0.10.3
+ node-pre-gypstack  Error: Could not find any Visual Studio installation to use
+ERR!gyp not ok
+ Failed to execute 'C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js configure --fallback-to-build --module=C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3\lib\binding\node-v83-win32-x64\node_sqlite3.node --module_name=node_sqlite3 --module_path=C:\sample\IBM-Developer\Node.js\Course\Unit-14\node_modules\sqlite3\lib\binding\node-v83-win32-x64 --napi_version=7 --node_abi_napi=napi' (1)
+ERR! stack     at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:121:47)
+gyp ERR! stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:16
+npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN unit-14@1.0.0 No description
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sqlite3@4.0.2 install: `node-pre-gyp install --fallback-to-build`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the sqlite3@4.0.2 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\dlgyd\AppData\Roaming\npm-cache\_logs\2020-11-16T10_13_56_629Z-debug.log
+
+C:\sample\IBM-Developer\Node.js\Course\Unit-14>npm run load-db
+
+> unit-14@1.0.0 load-db C:\sample\IBM-Developer\Node.js\Course\Unit-14
+> node ./utils/load-cloudant
+
+[2020-11-16T19:14:16.457] [INFO] default - 1605521656457:INFO: Connect success! Connected to DB: shopping_list
+[2020-11-16T19:14:16.462] [INFO] default - 1605521656462:INFO: mainline(): Initializing Cloudant... Done.
+[2020-11-16T19:14:16.485] [INFO] default - 1605521656485:INFO: mainline(): Script start at: 2020. 11. 16. 오후 7:14:16
+[2020-11-16T19:14:16.486] [INFO] default - 1605521656486:INFO: mainline(): Loading data for item...
+[2020-11-16T19:14:16.488] [INFO] default - 1605521656488:INFO: loadData(): Loading data files...
+[2020-11-16T19:14:16.490] [INFO] default - 1605521656490:INFO: loadData():readableStream.on(open): Opened file: ../data/Grocery_UPC_Database.csv
+[2020-11-16T19:14:16.511] [DEBUG] default - 1605521656511:DEBUG: Creating documents: 1-10000
+[2020-11-16T19:14:19.630] [DEBUG] default - 1605521659630:DEBUG: Creating documents: 10001-20000
+[2020-11-16T19:14:22.729] [DEBUG] default - 1605521662729:DEBUG: Creating documents: 20001-30000
+[2020-11-16T19:14:25.840] [DEBUG] default - 1605521665840:DEBUG: Creating documents: 30001-40000
+[2020-11-16T19:14:28.945] [DEBUG] default - 1605521668945:DEBUG: Creating documents: 40001-50000
+[2020-11-16T19:14:32.044] [DEBUG] default - 1605521672044:DEBUG: Creating documents: 50001-60000
+[2020-11-16T19:14:35.157] [DEBUG] default - 1605521675157:DEBUG: Creating documents: 60001-70000
+[2020-11-16T19:14:38.261] [DEBUG] default - 1605521678261:DEBUG: Creating documents: 70001-80000
+[2020-11-16T19:14:41.353] [DEBUG] default - 1605521681353:DEBUG: Creating documents: 80001-90000
+[2020-11-16T19:14:44.435] [DEBUG] default - 1605521684434:DEBUG: Creating documents: 90001-100000
+[2020-11-16T19:14:47.538] [DEBUG] default - 1605521687538:DEBUG: Creating documents: 100001-110000
+[2020-11-16T19:14:50.615] [INFO] default - 1605521690615:INFO: loadData():readableStream.on(close): Closed file: ../data/Grocery_UPC_Database.csv
+[2020-11-16T19:14:50.616] [DEBUG] default - 1605521690616:DEBUG: Creating documents: 110001-110436
+[2020-11-16T19:14:53.622] [INFO] default - 1605521693622:INFO: mainline(): Loading item data, done.
+[2020-11-16T19:14:53.622] [INFO] default - 1605521693622:INFO: Total item documents loaded: 110436
+[2020-11-16T19:14:53.625] [INFO] default - 1605521693625:INFO: mainline(): Script finished at: 2020. 11. 16. 오후 7:14:53
+
+C:\sample\IBM-Developer\Node.js\Course\Unit-14>
