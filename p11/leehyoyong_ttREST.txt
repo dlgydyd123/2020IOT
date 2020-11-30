@@ -1,0 +1,24 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\dlgyd>curl -X GET -u "apikey:tVL6D0tT7kSzcWReGvkOLk6v7NGC4-5SyvTUQFolsQWY" --output korean.wav "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/88eec1fb-fa70-4fb0-9d10-c5e34c1464b3/v1/synthesize?accept=audio%2Fwav&text=%EB%B0%B0%EA%B3%A0%ED%94%84%EB%8B%A4&voice=ko-KR_YunaVoice"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 19158  100 19158    0     0   4789      0  0:00:04  0:00:04 --:--:--  4142
+
+C:\Users\dlgyd>ls -l korean.wav
+'ls'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\dlgyd>dir korean.wav
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: AE59-BDC3
+
+ C:\Users\dlgyd 디렉터리
+
+2020-11-30  오전 09:26            19,158 korean.wav
+               1개 파일              19,158 바이트
+               0개 디렉터리  199,457,177,600 바이트 남음
+
+
+C:\Users\dlgyd>
